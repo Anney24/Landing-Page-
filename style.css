@@ -41,8 +41,10 @@ a{
 .hero-section{
     background-color: #1f2937;
     height: 70vh;
-    display: flex;
     flex-direction: column;
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .hero{
@@ -52,9 +54,14 @@ a{
     flex: 1;
 }
 .text-img {
-    height: 300px;
+    height: 150px;
     width: 600px;
     border: 1px solid black;
+    background-color: #e5e7eb;
+}
+.text-img p{
+    text-align: center;
+    padding: 50px;
 }
 
 .hero .text h1{
