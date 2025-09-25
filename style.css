@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: Roboto, serif;
+}
+img{
+    display: block;
+    width: 500px;
+}
+section{
+    padding: 20px 0;
+}
+.container{
+    padding: 0 5%;
+}
+header{
+    padding: 10px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    gap: 8px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: #f9faf8;
+    font-size: 16p;
+}
+
+.hero-section{
+    background-color: #1f2937;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex: 1;
+}
+.text-img {
+    height: 300px;
+    width: 600px;
+    border: 1px solid black;
+}
+
+.hero .text h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.hero .text p{
+    font-size: 16px;
+    color: #e5e7eb;
+    width: 500px;
+    margin-bottom: 10px;
+}
+.header-logo{
+    font-size: 24px;
+    color: #f9faf8;
+}
+button{
+    background-color: #3882f6;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.ctn{
+    background-color: #3882f6;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    outline: none;
+}
+.ctn-button{
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 2px 30px;
+}
+.info-header-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+.quote{
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+.quote-text{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+}
+.information h2{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.information .grids{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    width: 250px;
+}
+.p{
+    text-align: center;
+}
+
+.box{
+    width: 250px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    padding: 10px;
+}
